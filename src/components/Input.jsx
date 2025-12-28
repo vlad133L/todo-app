@@ -11,7 +11,7 @@ const Input = ({ label, textarea, ...props }) => {
       {textarea ? (
         <textarea className={classes} {...props} />
       ) : (
-        <input className={classes} {...props} {...props} />
+        <input className={classes} {...props} />
       )}
     </p>
   );
